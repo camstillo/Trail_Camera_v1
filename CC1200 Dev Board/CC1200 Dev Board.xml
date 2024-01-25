@@ -1,0 +1,1951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Cameron\Documents\KiCad Projects\CC1200 Dev Board\CC1200 Dev Board\CC1200 Dev Board.kicad_sch</source>
+    <date>12/21/2023 21:43:29</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CC1200 Development Board</title>
+        <company>SOUTH CASCADE CONTRACTING LLC</company>
+        <rev>v1.0</rev>
+        <date>11/12/2023</date>
+        <source>CC1200 Dev Board.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/">
+      <title_block>
+        <title>BQ24650 Development Board</title>
+        <company>SOUTH CASCADE CONTRACTING LLC</company>
+        <rev>v1.0</rev>
+        <date>12/3/2023</date>
+        <source>MPPT_DEV_BOARD.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRM155R71C473JA01_01A-1983976.pdf</datasheet>
+      <fields>
+        <field name="Name">GRM155R71C473JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM155R71C473JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac750ab5-5d66-47f5-929f-169d1dbbb967</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRM155R71C473JA01_01A-1983976.pdf</datasheet>
+      <fields>
+        <field name="Name">GRM155R71C473JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM155R71C473JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>447d6856-0ba9-4f1f-83ec-70f30acd504d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">CC0402KPX7R8BB103</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="CC0402KPX7R8BB103"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d576ef38-54cf-4bd7-8ce4-9831406d1060</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRM155R61E224KE01_01A-1983877.pdf</datasheet>
+      <fields>
+        <field name="Name">GRM155R61E224KE01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM155R61E224KE01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47819e0b-57b0-48f3-8074-6e0c8a09c81f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1.5n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">GRM1557U1A152JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM1557U1A152JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>683524c2-3b1a-41b9-81c5-ce5137ce9087</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>5.1p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">GRM0335C1H5R1CA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM0335C1H5R1CA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36798f3e-439d-460f-8aa0-9503b840aba9</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>5.1p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">GRM0335C1H5R1CA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM0335C1H5R1CA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85c278b0-e3f9-4331-ba47-3108c3af59a8</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>5.1p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">GRM0335C1H5R1CA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM0335C1H5R1CA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd4fbb8f-b3d0-403e-8211-b6366005b407</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>2.2p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">CGA2B2C0G1H2R2C050BA</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="CGA2B2C0G1H2R2C050BA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6a2dd6a-9796-40e6-ba2f-879a4335c3dd</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>39p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">AC0402JRNPO9BN390</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="AC0402JRNPO9BN390"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6beea4ad-07bd-4456-9565-05403f4a17fa</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>6.2p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">GRM1555C1H6R2CA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM1555C1H6R2CA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>183459cb-93c7-41ea-9809-4438a85d8889</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>DNI</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">DNI</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="DNI"/>
+      <property name="Field5" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7b4eaa8-a2bd-436b-b8fd-733fcabecf5c</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>56p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">04025A560JAT4A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="04025A560JAT4A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e75acfbc-a42c-4ffd-adff-abea02423a23</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">CC0402KPX7R8BB103</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="CC0402KPX7R8BB103"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62693189-b8cf-40fb-bd3c-3959fabc3190</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">885012005061</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="885012005061"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dba297ad-930c-484f-beeb-66e277aee694</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Name">CL05C220JB5NNND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="CL05C220JB5NNND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bda78ce7-308c-4cd7-bfce-79aacb3a5277</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">0402B104K6R3CT</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="0402B104K6R3CT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad04a97e-5446-4fb5-9174-a2c1dd075f98</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRM155R71C473JA01_01A-1983976.pdf</datasheet>
+      <fields>
+        <field name="Name">GRM155R71C473JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM155R71C473JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>323a4615-59c7-4883-9b15-ad294c1e253a</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRM155R71C473JA01_01A-1983976.pdf</datasheet>
+      <fields>
+        <field name="Name">GRM155R71C473JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM155R71C473JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fce5f016-3554-4e39-9535-a975c1f77199</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRM155R71C473JA01_01A-1983976.pdf</datasheet>
+      <fields>
+        <field name="Name">GRM155R71C473JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM155R71C473JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56e8665f-098d-4468-945d-6325d6f7c0ed</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRM155R71C473JA01_01A-1983976.pdf</datasheet>
+      <fields>
+        <field name="Name">GRM155R71C473JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM155R71C473JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9992e4f1-67ff-4590-9931-c2ba2ea829ce</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRM155R71C473JA01_01A-1983976.pdf</datasheet>
+      <fields>
+        <field name="Name">GRM155R71C473JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM155R71C473JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b13cd9a3-f3f3-409e-b119-365e494c22a5</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRM155R71C473JA01_01A-1983976.pdf</datasheet>
+      <fields>
+        <field name="Name">GRM155R71C473JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM155R71C473JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>327f0b97-c53a-404a-b4c4-7b7cbd171ed2</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRM155R71C473JA01_01A-1983976.pdf</datasheet>
+      <fields>
+        <field name="Name">GRM155R71C473JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM155R71C473JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e886c686-19f0-4ec0-baf3-63e02dab6601</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRM155R71C473JA01_01A-1983976.pdf</datasheet>
+      <fields>
+        <field name="Name">GRM155R71C473JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM155R71C473JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ccb0c91-6268-4a64-ac34-afc3fea5a0d3</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/281/1/GRM155R71C473JA01_01A-1983976.pdf</datasheet>
+      <fields>
+        <field name="Name">GRM155R71C473JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="GRM155R71C473JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d52c77e-0e6a-47ad-a22a-663923fa03b5</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>INTERFACE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical_SMD</footprint>
+      <fields>
+        <field name="Name">10129383-914001ALF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Name" value="10129383-914001ALF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4be7016-78d8-4337-aaed-79ff1ff396f6</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>56n</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">LQG15HN56NJ02D</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Name" value="LQG15HN56NJ02D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa2c919d-f650-4c9c-9202-f9ca323bc1ea</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>27n</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">7447840127</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Name" value="7447840127"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a97b441b-97dd-4d70-9eb1-468ef1fa1bf5</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>27n</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">7447840127</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Name" value="7447840127"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fc86bd1-7ade-47dd-bb0e-1296bf67d222</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>15n</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">LQW15AN15NJ00D</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Name" value="LQW15AN15NJ00D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7829706-f193-49a0-ac76-4c0edf4919c2</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>15n</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">LQW15AN15NJ00D</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Name" value="LQW15AN15NJ00D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c05363d2-d6a0-4214-8436-71f0b9673d3c</tstamps>
+    </comp>
+    <comp ref="L6">
+      <value>43n</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">LQW15AN43NJ00D</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Name" value="LQW15AN43NJ00D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bded0f89-bff8-4840-a52c-f98421a4f496</tstamps>
+    </comp>
+    <comp ref="L7">
+      <value>22n</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">LQG15HS22NJ02D</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Name" value="LQG15HS22NJ02D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6ce7ab0-b90c-4de3-812d-ab5748fe1914</tstamps>
+    </comp>
+    <comp ref="L8">
+      <value>56n</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">LQG15HN56NJ02D</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Name" value="LQG15HN56NJ02D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ab57f7f-f658-4da2-8b3e-d92603ffd8c8</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>SMA</value>
+      <footprint>SMA_COAX_Custom:CONSMA001-SMD-G</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/418/9/ENG_DS_CONSMA001_SMD_G_F-3238459.pdf</datasheet>
+      <fields>
+        <field name="Name">CONSMA001-SMD-G</field>
+      </fields>
+      <libsource lib="amsat_te_amp" part="SMA" description="SMA PCB Mount"/>
+      <property name="Name" value="CONSMA001-SMD-G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="SMA PCB Mount"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9590077-076d-4423-9a97-8530deadf656</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>56K</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">CR0402-FX-5602GLF</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Name" value="CR0402-FX-5602GLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a209d30d-6923-4f27-b63f-f8a03927ca09</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>18</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">CR0402-JW-180GLF</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Name" value="CR0402-JW-180GLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbaec5da-ab7d-4cf7-812e-aa05a38f158e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">CR0402-FX-1002GLF</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Name" value="CR0402-FX-1002GLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57a2fcf7-274a-47c3-ba29-458071f8fce6</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">RK73Z1ETTP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Name" value="RK73Z1ETTP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>586dc9cd-4af9-4b31-9a76-7a59b8e62e6a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Name">RK73Z1ETTP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Name" value="RK73Z1ETTP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da096b81-13f3-4e77-a117-e94f5e7f6d70</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RST</value>
+      <footprint>Pushbutton:PTS636 SL43 SMTR LFS</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/240/pts636-3051079.pdf</datasheet>
+      <fields>
+        <field name="Name">PTS636 SL43 SMTR LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Name" value="PTS636 SL43 SMTR LFS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebb71488-1256-4eb1-8d3f-6c25e200da57</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>CC1200</value>
+      <footprint>TI_Custom:CC1200</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cc1200.pdf</datasheet>
+      <fields>
+        <field name="Name">CC1200</field>
+      </fields>
+      <libsource lib="RF" part="CC1200" description="Low-Power, High-Performance RF Transceiver, QFN-32"/>
+      <property name="Name" value="CC1200"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <property name="ki_description" value="Low-Power, High-Performance RF Transceiver, QFN-32"/>
+      <property name="ki_keywords" value="RF Tx Rx"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42c1db67-9e8d-4e46-b600-fa0042d02634</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>40MHz</value>
+      <footprint>TCXO_Custom:TG2520SMN</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/137/TG2520SMN_en-2584158.pdf</datasheet>
+      <fields>
+        <field name="Name">TG2520SMN</field>
+      </fields>
+      <libsource lib="TCXO" part="TG2520SMN-40.0000M" description=""/>
+      <property name="Name" value="TG2520SMN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CC1200 Dev Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3df4778-7f00-401d-a689-d485c6a6cdc1</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>6.8u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/TDK/CGA5L1X7R1E685M160AC?qs=xLDY6iXSiQY%2FjDS%252Bl5seeg%3D%3D</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>bc02ac47-bb91-4b97-8ab7-7a2b46565a8d</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL31B475KAHNNNE?qs=349EhDEZ59oSE8dT4yS8Ow%3D%3D</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>ec93db18-cf20-409e-8050-d1b8039cae36</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Walsin/0402N220K500CT?qs=ZrPdAQfJ6DN23GfCFryrgg%3D%3D</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>85445e69-c4f4-4ebc-951d-0706d1850b58</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Murata-Electronics/GRM21BR61E106KA73K?qs=hNud%2FORuBR1gmy53p902Zw%3D%3D</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>3c5d979a-0c76-419b-9f4d-f66f7bbad050</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/TAIYO-YUDEN/MSAST105SB5104KFNA01?qs=sGAEpiMZZMuMW9TJLBQkXugdD5SwFUVxX7b%2F1PxaZOg%3D</datasheet>
+      <fields>
+        <field name="Name">MSAST105SB5104KFNA01</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="MSAST105SB5104KFNA01"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>8335589b-fd45-456e-8d78-5d62e55536f9</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Murata-Electronics/GRM155R61E105MA12J?qs=d0WKAl%252BL4Ka6kFlG7Y3Esw%3D%3D</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>dbea88f7-c4f7-4804-bdfe-d59595269111</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Murata-Electronics/GRM155R61E105MA12J?qs=d0WKAl%252BL4Ka6kFlG7Y3Esw%3D%3D</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>cbfe40f2-5f9d-496c-bd53-a218f9016039</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Murata-Electronics/GRM155R61E105MA12J?qs=d0WKAl%252BL4Ka6kFlG7Y3Esw%3D%3D</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>833a5827-4f3e-4b5a-8046-b93f3772433e</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>2.2u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A225KO8NNWC?qs=f6khj2Jg0FjUcDguGMWyQw%3D%3D</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>d84362b2-d938-417e-a693-fc95243c9169</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/TAIYO-YUDEN/MSAST105SB5104KFNA01?qs=sGAEpiMZZMuMW9TJLBQkXugdD5SwFUVxX7b%2F1PxaZOg%3D</datasheet>
+      <fields>
+        <field name="Name">MSAST105SB5104KFNA01</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="MSAST105SB5104KFNA01"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>e533d150-af74-430b-b7a7-6e2f5615bdb3</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/TAIYO-YUDEN/MSAST105SB5104KFNA01?qs=sGAEpiMZZMuMW9TJLBQkXugdD5SwFUVxX7b%2F1PxaZOg%3D</datasheet>
+      <fields>
+        <field name="Name">MSAST105SB5104KFNA01</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Name" value="MSAST105SB5104KFNA01"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>7cfacfd5-a144-4622-9e21-2a9be8d90336</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAT54F</value>
+      <footprint>Diode_custom:BAT54-7-F</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ds11005.pdf</datasheet>
+      <libsource lib="Diode" part="BAT54A" description="schottky barrier diode"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="schottky barrier diode"/>
+      <property name="ki_keywords" value="schottky diode"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>d892b123-8257-4f71-a613-3c9281cb0a69</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>GRN</value>
+      <footprint>LED_Custom:MSAST105SB5104KFNA01</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Wurth-Elektronik/150060YS75000?qs=LlUlMxKIyB0nKmwefHgtZw%3D%3D</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>2a03f367-3fa1-4bf4-be75-4f01bc9b04ee</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>YEL</value>
+      <footprint>LED_Custom:MSAST105SB5104KFNA01</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Wurth-Elektronik/150060YS75000?qs=LlUlMxKIyB0nKmwefHgtZw%3D%3D</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>4b0ef524-8a44-44fa-b6f5-99eee7c64d33</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>CDBA260-G</value>
+      <footprint>Diode_custom:CDBA260-G</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Comchip-Technology/CDBA260-G?qs=tw%252BuQ%2FB6PO0iSN8LLEHeiw%3D%3D</datasheet>
+      <fields>
+        <field name="Name">CDBA260-G</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Name" value="CDBA260-G"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>f7751a7b-f28d-4b74-bb9e-8ae2be9ab797</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>INPUT</value>
+      <footprint>Connector_Custom:InOut_Pads</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>8b8ee4a5-6190-49d6-b0d0-1af510a308b2</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>OUTPUT</value>
+      <footprint>Connector_Custom:InOut_Pads</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>07067ff7-b55e-433d-84ff-5720c126eadc</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>SIG</value>
+      <footprint>Connector_Custom:InOut_Pads</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>4fd1d69c-dc07-42af-8197-c26c0695f893</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>GND</value>
+      <footprint>Connector_Custom:InOut_Pads</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>dd63cdb1-8514-4336-bd4a-665398736afa</tstamps>
+    </comp>
+    <comp ref="L9">
+      <value>22uH</value>
+      <footprint>Inductor_custom:SRR1005-220Y</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/54/SRR1005-1391596.pdf</datasheet>
+      <fields>
+        <field name="Name">SRR1005-220Y</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Name" value="SRR1005-220Y"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>6620f5af-e59d-44d3-9c1d-4dabf714c278</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PMN280ENEA</value>
+      <footprint>MOSFETs:PMN280ENEA</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PMN280ENEA-1588544.pdf</datasheet>
+      <libsource lib="BQ2450" part="PMN280ENEA" description=""/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>ecd033d1-6ff8-45d2-bf63-2320be352d52</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>PMN280ENEA</value>
+      <footprint>MOSFETs:PMN280ENEA</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/PMN280ENEA-1588544.pdf</datasheet>
+      <libsource lib="" part="PMN280ENEA_1" description=""/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>34ddf8ef-61b0-44c6-95eb-71cdbc9de88c</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>0.8</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>29e92c3e-0cf3-4b53-9179-2e570c40592c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Walsin/WR04X2202FTL?qs=sGAEpiMZZMtlubZbdhIBIFle1v8UTW4VO0hcqjKoLYU%3D</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>30530591-48ac-489e-a0f8-cb0bfdef851c</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>30k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Bourns/CR0402-FX-3002GLF?qs=sGAEpiMZZMtlubZbdhIBIF%252BreTk9eAArOdlhJqT7%2F8I%3D</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>8029f582-3348-4619-983d-eaf38b55747c</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4.7</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/SEI-Stackpole/RMCF1206FT4R70?qs=sGAEpiMZZMtlubZbdhIBIFtUjlT065uiRDKzjsSVZdE%3D</datasheet>
+      <fields>
+        <field name="Power">0.25W</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Power" value="0.25W"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>7990f1e6-ac12-4500-9e28-0818ea36b35d</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>36k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Bourns/CR0402-FX-3602GLF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958RuHvSZxgYv%252Bw%3D</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>6cbc07fc-40af-4c71-8bad-516e98a58814</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/652-CR0402FX-1002GLF</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>cd33b4bb-3936-4ccc-b3cc-d9273cb88b2e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>5.23k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Bourns/CR0402-FX-5231GLF?qs=sGAEpiMZZMvdGkrng054t5Icag9cXfRIH9iZMe%252BCNao%3D</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>e102d25e-588c-4fdc-9e34-7e6ff3d770ea</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>30.1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Bourns/CR0402-FX-3012GLF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958RlMmUJf3aUTY%3D</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>7dd86bc9-b360-4b35-a146-d6127dc9980b</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Bourns/CR0402-JW-222GLF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958Rwm1dRjFTsA0%3D</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>d9062b52-2450-428a-a62c-3cf401d78f82</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Bourns/CR0402-JW-222GLF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958Rwm1dRjFTsA0%3D</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>dc45f68e-02ee-4413-9c9d-65b7df819f58</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/SEI-Stackpole/RMCF1206FT2R00?qs=sGAEpiMZZMtlubZbdhIBIFtUjlT065ui3jHeKj8ewGE%3D</datasheet>
+      <fields>
+        <field name="Power">0.25W</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Power" value="0.25W"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>6c7c5d7a-93ca-4bd9-8a04-9a147ded095e</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>0.1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Bourns/CRL0603-FW-R100ELF?qs=sGAEpiMZZMtlubZbdhIBIFx6EhAlX5MiB3dSRgfSKwI%3D</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>0ad06af5-af72-4b06-a505-82ec581f1c82</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>RST</value>
+      <footprint>Pushbutton:PTS636 SL43 SMTR LFS</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/240/pts636-3051079.pdf</datasheet>
+      <fields>
+        <field name="Name">PTS636 SL43 SMTR LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Name" value="PTS636 SL43 SMTR LFS"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>446fe5b1-d2f0-4bb7-8c4f-f9ba34cbf96d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>BQ24650</value>
+      <footprint>TI_Custom:BQ24650</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/bq24650.pdf?ts=1701652423864&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ24650%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-bms-null-44700045336317365_prodfolderdynamic-cpc-pf-google-wwe_int%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC%2BSEARCH%2BADS%2526DCM%253Dyes%2526gad_source%253D1%2526gclid%253DCj0KCQiA67CrBhC1ARIsACKAa8TIsSJe36doHXTalzrNqFdXvxCMuMNIwfPKw29qmMzN5TnHPOCvvvoaAowdEALw_wcB%2526gclsrc%253Daw.ds</datasheet>
+      <libsource lib="BQ2450" part="BQ2450" description="Solar Battery Charger IC"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Solar Battery Charger IC"/>
+      <property name="ki_keywords" value="Li-ion"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>967e8209-f66a-405a-b4e3-c443848344b1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>INA180A1</value>
+      <footprint>TI_Custom:INA180A1IDBVR</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ina180.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1703154666942&amp;ref_url=https%253A%252F%252Fwww.mouser.it%252F</datasheet>
+      <libsource lib="TI_Custom" part="INA180A1IDBVR" description="Current Sense Amplifiers 26V, 350kHz current sense amplifier 5-SOT-23 -40 to 125"/>
+      <property name="Sheetname" value="MPPT Dev Board"/>
+      <property name="Sheetfile" value="MPPT_DEV_BOARD.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Current Sense Amplifiers 26V, 350kHz current sense amplifier 5-SOT-23 -40 to 125"/>
+      <property name="ki_keywords" value="Current Sense Amplifier"/>
+      <sheetpath names="/MPPT Dev Board/" tstamps="/fc60bf64-7996-4f3d-9564-3ae48fb2760e/"/>
+      <tstamps>f9cc0f06-ece3-4967-af58-f0e6463d9383</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="PMN280ENEA_1">
+      <docs>https://www.mouser.com/datasheet/2/916/PMN280ENEA-1588544.pdf</docs>
+      <fields>
+        <field name="Reference">Q2</field>
+        <field name="Value">PMN280ENEA</field>
+        <field name="Footprint">MOSFETs:PMN280ENEA</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/916/PMN280ENEA-1588544.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="S" type="input"/>
+        <pin num="5" name="D" type="input"/>
+        <pin num="6" name="D" type="input"/>
+        <pin num="7" name="D" type="input"/>
+        <pin num="8" name="S" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="BQ2450" part="BQ2450">
+      <description>Solar Battery Charger IC</description>
+      <docs>https://www.ti.com/lit/ds/symlink/bq24650.pdf?ts=1701652423864&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ24650%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-bms-null-44700045336317365_prodfolderdynamic-cpc-pf-google-wwe_int%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC%2BSEARCH%2BADS%2526DCM%253Dyes%2526gad_source%253D1%2526gclid%253DCj0KCQiA67CrBhC1ARIsACKAa8TIsSJe36doHXTalzrNqFdXvxCMuMNIwfPKw29qmMzN5TnHPOCvvvoaAowdEALw_wcB%2526gclsrc%253Daw.ds</docs>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">BQ24650</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/bq24650.pdf?ts=1701652423864&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ24650%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-bms-null-44700045336317365_prodfolderdynamic-cpc-pf-google-wwe_int%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC%2BSEARCH%2BADS%2526DCM%253Dyes%2526gad_source%253D1%2526gclid%253DCj0KCQiA67CrBhC1ARIsACKAa8TIsSJe36doHXTalzrNqFdXvxCMuMNIwfPKw29qmMzN5TnHPOCvvvoaAowdEALw_wcB%2526gclsrc%253Daw.ds</field>
+      </fields>
+      <pins>
+        <pin num="0" name="THERM_PAD" type="power_in"/>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="MPPSET" type="input"/>
+        <pin num="3" name="STAT1" type="output"/>
+        <pin num="4" name="TS" type="input"/>
+        <pin num="5" name="STAT2" type="output"/>
+        <pin num="6" name="VREF" type="power_in"/>
+        <pin num="7" name="TERM_EN" type="input"/>
+        <pin num="8" name="VFB" type="input"/>
+        <pin num="9" name="SRN" type="input"/>
+        <pin num="10" name="SRP" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="REGN" type="power_in"/>
+        <pin num="13" name="LODRV" type="output"/>
+        <pin num="14" name="PH" type="power_out"/>
+        <pin num="15" name="HIDRV" type="output"/>
+        <pin num="16" name="BTST" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BQ2450" part="PMN280ENEA">
+      <docs>https://www.mouser.com/datasheet/2/916/PMN280ENEA-1588544.pdf</docs>
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">PMN280ENEA</field>
+        <field name="Footprint">MOSFETs:PMN280ENEA</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/916/PMN280ENEA-1588544.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="S" type="input"/>
+        <pin num="5" name="D" type="input"/>
+        <pin num="6" name="D" type="input"/>
+        <pin num="7" name="D" type="input"/>
+        <pin num="8" name="S" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Odd_Even">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT54A">
+      <description>schottky barrier diode</description>
+      <docs>http://www.diodes.com/_files/datasheets/ds11005.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.diodes.com/_files/datasheets/ds11005.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF" part="CC1200">
+      <description>Low-Power, High-Performance RF Transceiver, QFN-32</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cc1200.pdf</docs>
+      <footprints>
+        <fp>QFN*5x5mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CC1200</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/cc1200.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD_GUARD" type="power_in"/>
+        <pin num="2" name="~{RESET}" type="input"/>
+        <pin num="3" name="GPIO3" type="bidirectional"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="DVDD" type="power_in"/>
+        <pin num="6" name="DCPL" type="power_out"/>
+        <pin num="7" name="SI" type="input"/>
+        <pin num="8" name="SCLK" type="input"/>
+        <pin num="9" name="SO(GPIO1)" type="bidirectional"/>
+        <pin num="10" name="GPIO0" type="bidirectional"/>
+        <pin num="11" name="~{CS}" type="input"/>
+        <pin num="12" name="DVDD" type="power_in"/>
+        <pin num="13" name="AVDD_IF" type="power_in"/>
+        <pin num="14" name="RBIAS" type="passive"/>
+        <pin num="15" name="AVDD_RF" type="power_in"/>
+        <pin num="17" name="PA" type="passive"/>
+        <pin num="18" name="TRX_SW" type="passive"/>
+        <pin num="19" name="LNA_P" type="passive"/>
+        <pin num="20" name="LNA_N" type="passive"/>
+        <pin num="21" name="DCPL_VCO" type="power_out"/>
+        <pin num="22" name="AVDD_SYNTH1" type="power_in"/>
+        <pin num="23" name="LPF0" type="passive"/>
+        <pin num="24" name="LPF1" type="passive"/>
+        <pin num="25" name="AVDD_PFD_CHP" type="power_in"/>
+        <pin num="26" name="DCPL_PFD_CHP" type="power_out"/>
+        <pin num="27" name="AVDD_SYNTH2" type="power_in"/>
+        <pin num="28" name="AVDD_XOSC" type="power_in"/>
+        <pin num="29" name="DCPL_XOSC" type="power_out"/>
+        <pin num="30" name="XOSC_Q1" type="passive"/>
+        <pin num="31" name="XOSC_Q2" type="passive"/>
+        <pin num="32" name="EXT_XOSC" type="input"/>
+        <pin num="33" name="GND_EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TCXO" part="TG2520SMN-40.0000M">
+      <docs>https://www.mouser.com/datasheet/2/137/TG2520SMN_en-2584158.pdf</docs>
+      <fields>
+        <field name="Reference">X1</field>
+        <field name="Value">40MHz</field>
+        <field name="Footprint">TCXO:TG2520SMN-40.0000MHz</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/137/TG2520SMN_en-2584158.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="TI_Custom" part="INA180A1IDBVR">
+      <description>Current Sense Amplifiers 26V, 350kHz current sense amplifier 5-SOT-23 -40 to 125</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ina180.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1703154666942&amp;ref_url=https%253A%252F%252Fwww.mouser.it%252F</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA180A1</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ina180.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1703154666942&amp;ref_url=https%253A%252F%252Fwww.mouser.it%252F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="GND" type="output"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="IN-" type="input"/>
+        <pin num="5" name="VIN" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="amsat_te_amp" part="SMA">
+      <description>SMA PCB Mount</description>
+      <footprints>
+        <fp>BNC_*</fp>
+        <fp>bnc</fp>
+        <fp>bnc-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">SMA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Body" type="passive"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BQ2450">
+      <uri>C:/Users/Cameron/Documents/KiCad Projects/New folder/BQ2450.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="RF">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/RF.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="TCXO">
+      <uri>C:/Users/Cameron/Documents/KiCad Projects/New folder/TCXO.kicad_sym</uri>
+    </library>
+    <library logical="TI_Custom">
+      <uri>C:\Users\Cameron\Documents\KiCad Projects\CC1200 Dev Board\CC1200 Dev Board/TI_Custom.kicad_sym</uri>
+    </library>
+    <library logical="amsat_te_amp">
+      <uri>C:/Users/Cameron/Documents/KiCad/7.0/symbols/amsat_te_amp.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDD_GUARD" pintype="power_in"/>
+      <node ref="U1" pin="12" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U1" pin="13" pinfunction="AVDD_IF" pintype="power_in"/>
+      <node ref="U1" pin="15" pinfunction="AVDD_RF" pintype="power_in"/>
+      <node ref="U1" pin="22" pinfunction="AVDD_SYNTH1" pintype="power_in"/>
+      <node ref="U1" pin="25" pinfunction="AVDD_PFD_CHP" pintype="power_in"/>
+      <node ref="U1" pin="27" pinfunction="AVDD_SYNTH2" pintype="power_in"/>
+      <node ref="U1" pin="28" pinfunction="AVDD_XOSC" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="/ANT_OUT">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="L7" pin="2" pintype="passive"/>
+      <node ref="P1" pin="1" pinfunction="In" pintype="passive"/>
+    </net>
+    <net code="3" name="/ANT_OUT_C">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="L6" pin="2" pintype="passive"/>
+      <node ref="L7" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/DCPL">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="DCPL" pintype="power_out"/>
+    </net>
+    <net code="5" name="/DCPL_PFD_CHP">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="DCPL_PFD_CHP" pintype="power_out"/>
+    </net>
+    <net code="6" name="/DCPL_VCO">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="DCPL_VCO" pintype="power_out"/>
+    </net>
+    <net code="7" name="/FILTER_IN">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="L5" pin="2" pintype="passive"/>
+      <node ref="L6" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/LFP0">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="LPF0" pintype="passive"/>
+    </net>
+    <net code="9" name="/LFP1">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="LPF1" pintype="passive"/>
+    </net>
+    <net code="10" name="/PA_OUT">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="L5" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/PA_PULLUP">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="L8" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="/RESET">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="13" name="/RX_IN">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="L4" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/TCXO_OUT">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="X1" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="15" name="BAT_OUT">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="16" name="BAT_OUT_R">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="SRN" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="IN+" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="VIN" pintype="output"/>
+    </net>
+    <net code="17" name="BAT_TEMP">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="TS" pintype="input"/>
+    </net>
+    <net code="18" name="DCPL_XOSC">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="DCPL_XOSC" pintype="power_out"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="P1" pin="2" pinfunction="Body" pintype="passive"/>
+      <node ref="P1" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="P1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="P1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="Q2" pin="4" pinfunction="S" pintype="input"/>
+      <node ref="Q2" pin="8" pinfunction="S" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="XOSC_Q1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="XOSC_Q2" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="GND_EP" pintype="power_in"/>
+      <node ref="U2" pin="0" pinfunction="THERM_PAD" pintype="power_in"/>
+      <node ref="U2" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="output"/>
+      <node ref="X1" pin="2" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="20" name="GPIO0">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="GPIO2">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="GPIO3">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="I_SENSE_OUT">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="24" name="LNA_N">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="LNA_N" pintype="passive"/>
+    </net>
+    <net code="25" name="LNA_P">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="L3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="LNA_P" pintype="passive"/>
+    </net>
+    <net code="26" name="MPPTSET_RST">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="MPPSET" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(C35-Pad1)">
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="STAT2" pintype="output"/>
+    </net>
+    <net code="30" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="STAT1" pintype="output"/>
+    </net>
+    <net code="32" name="Net-(Q1-G)">
+      <node ref="Q1" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="15" pinfunction="HIDRV" pintype="output"/>
+    </net>
+    <net code="33" name="Net-(Q2-G)">
+      <node ref="Q2" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="13" pinfunction="LODRV" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(U1-RBIAS)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="RBIAS" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(U2-BTST)">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="BTST" pintype="power_in"/>
+    </net>
+    <net code="36" name="Net-(U2-PH)">
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="L9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="S" pintype="input"/>
+      <node ref="Q1" pin="8" pinfunction="S" pintype="input"/>
+      <node ref="Q2" pin="1" pinfunction="D" pintype="input"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="input"/>
+      <node ref="Q2" pin="5" pinfunction="D" pintype="input"/>
+      <node ref="Q2" pin="6" pinfunction="D" pintype="input"/>
+      <node ref="Q2" pin="7" pinfunction="D" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="PH" pintype="power_out"/>
+    </net>
+    <net code="37" name="Net-(U2-REGN)">
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="D1" pin="3" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="REGN" pintype="power_in"/>
+    </net>
+    <net code="38" name="Net-(U2-TERM_EN)">
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="VREF" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="TERM_EN" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(U2-VCC)">
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="40" name="Net-(X1-VCC)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="X1" pin="4" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="41" name="PA">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="L8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PA" pintype="passive"/>
+    </net>
+    <net code="42" name="SPI_CS">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="43" name="SPI_SCLK">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="44" name="SPI_SI">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="SI" pintype="input"/>
+    </net>
+    <net code="45" name="SPI_SO{slash}GPIO1">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="SO(GPIO1)" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="SRP">
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="L9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="SRP" pintype="input"/>
+    </net>
+    <net code="47" name="TCXO">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="EXT_XOSC" pintype="input"/>
+    </net>
+    <net code="48" name="TRX_SW">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="L4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="TRX_SW" pintype="passive"/>
+    </net>
+    <net code="49" name="VFB">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VFB" pintype="input"/>
+    </net>
+    <net code="50" name="VIN">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="VIN_D">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="D" pintype="input"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="input"/>
+      <node ref="Q1" pin="5" pinfunction="D" pintype="input"/>
+      <node ref="Q1" pin="6" pinfunction="D" pintype="input"/>
+      <node ref="Q1" pin="7" pinfunction="D" pintype="input"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="unconnected-(D1-Pad1)">
+      <node ref="D1" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(X1-NC-Pad1)">
+      <node ref="X1" pin="1" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

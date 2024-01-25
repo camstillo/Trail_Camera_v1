@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b3d6063e-fd9f-4669-804c-13e298c58f2c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 57.15 40.005) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2713407a-0a12-4557-b833-abf2fb54a013)
+    (property "Sheetname" "CC1200 Development Board" (at 57.15 39.2934 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "C:/Users/Cameron/Documents/KiCad Projects/CC1200 Dev Board/Trail_Camera Board/CC1200 Dev Board.kicad_sch" (at 57.15 44.3996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Trail_Camera"
+        (path "/b3d6063e-fd9f-4669-804c-13e298c58f2c" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 60.96 57.785) (size 12.7 5.715) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a495a7fc-611a-4ff4-b530-4f5275f5d501)
+    (property "Sheetname" "BQ24650 Solar Charger" (at 60.96 57.0734 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "C:/Users/Cameron/Documents/KiCad Projects/CC1200 Dev Board/Trail_Camera Board/MPPT_DEV_BOARD.kicad_sch" (at 60.96 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Trail_Camera"
+        (path "/b3d6063e-fd9f-4669-804c-13e298c58f2c" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
